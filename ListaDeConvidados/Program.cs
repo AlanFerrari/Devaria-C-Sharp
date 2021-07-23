@@ -33,7 +33,7 @@ namespace ListaDeConvidados
 
             if(idadeInformada == false)
             {
-                Console.WriteLine("A idade informadanão não é válida para seguir com o programa");
+                Console.WriteLine("A idade informada não é válida para seguir com o programa");
                 return;
             }
 
