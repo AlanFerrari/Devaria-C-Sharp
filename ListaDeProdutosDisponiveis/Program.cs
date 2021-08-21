@@ -28,11 +28,11 @@ namespace ListaDeProdutosDisponiveis
                     Console.WriteLine($"Este produto nós não temos: {naoDisponivel}");
                 }
                 //Ordenar em ordem alfabética
-               /* var produtosDisponiveisOrdenadosPorNome = produtosDisponiveis.OrderBy(e => e).ToList();
+                 var produtosDisponiveisOrdenadosPorNome = produtosDisponiveis.OrderBy(e => e).ToList();
                 foreach(var produtoOrdenado in produtosDisponiveisOrdenadosPorNome)
                 {
                     Console.WriteLine($"Segue este produto disponivel: {produtoOrdenado}");
-                }*/
+                }
             }
             catch (System.Exception)
             {
